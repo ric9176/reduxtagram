@@ -2,7 +2,8 @@
 // 1. the action (what happened)
 // 2. copy of current state
 
-function posts(state = [], action) {
+const posts = (state = [], action) => {
+  console.log("post changed");
   console.log(state, action);
   return state;
 }

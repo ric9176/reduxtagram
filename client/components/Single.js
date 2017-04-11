@@ -1,7 +1,11 @@
 import React from 'react';
 import { link } from 'react-router';
 
-const Single = React.createClass({
+class Single extends React.Component {
+  constructor () {
+    super()
+  }
+  
   render() {
     return (
       <div className="single-photo">
@@ -9,6 +13,6 @@ const Single = React.createClass({
       </div>
     );
   }
-});
+};
 
 export default Single;
